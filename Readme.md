@@ -38,38 +38,38 @@ python cache_server.py
 ```python
 from cache_api import APICache
 ```
-## Initialize the cache client
+### Initialize the cache client
 ```python
 cache = APICache(process_name='example_process')
 ```
-## Set a variable
+### Set a variable
 ```python
 cache.set_cache('my_var', 'Hello, World!')
 ```
-## Get a variable
+### Get a variable
 ```python
 value = cache.get_cache('my_var')
 print(f"Retrieved value: {value}")
 ```
-## List variables
+### List variables
 ```python
 variables = cache.list_cache()
 print(f"Variables in cache: {variables}")
 ```
-## Clear process cache
+### Clear process cache
 ```python
 cache.clear_cache()
 ```
-## Clear all cache
+### Clear all cache
 ```python
 cache.clear_all_cache()
 ```
 
-## Configuration
+### Configuration
 
 1. Copy `example_settings.cfg` to `settings.cfg`.
 2. An API key will be generated and saved in `settings.cfg` for you on first run.
 
-## Security Note
+### Security Note
 
 Ensure that your `settings.cfg` file with the API key is kept secure and not shared publicly.
