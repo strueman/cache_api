@@ -1,4 +1,4 @@
-# Python object API Cache System
+# Python object API cache system
 
 Store and retrieve Python objects in a centralized cache system. Handy to keep data in memory between runs of a process to avoid having to re-load data or recalculate values. Can be used to share data between unrelated classes or functions. Hold data in memory for fast access. The data is cleared when the server is restarted or shutdown. 
 
