@@ -44,7 +44,7 @@ from cache_api import APICache
 ```python
 cache = APICache(process_name='example_process')
 ```
-Note: You can leave out the `process_name` parameter if you want to set the `process_name` in each call, usefull for sharing a cache between different processes. So it would be ```python cache = APICache()``` and then ```python cache.set_cache('my_var', 'Hello, World!', process_name='example_process')``    `
+Note: You can leave out the `process_name` parameter if you want to set the `process_name` in each call, usefull for sharing a cache between different processes. So it would be ```python cache = APICache()``` and then ```python cache.set_cache('my_var', 'Hello, World!', process_name='example_process')```
 ### Set a variable
 ```python
 cache.set_cache('my_var', 'Hello, World!')
