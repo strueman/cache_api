@@ -1,6 +1,8 @@
-# API Cache System
+# Python object API Cache System
 
-This application provides a simple API-based caching system with a server and client implementation. It allows for storing, retrieving, and managing cached data across different processes.
+Store and retrieve Python objects in a centralized cache system. Handy to keep data in memory between runs of a process to avoid having to re-load data or recalculate values. Can be used to share data between unrelated classes or functions. Hold data in memory for fast access. The data is cleared when the server is restarted or shutdown. 
+
+This application provides a simple API-based caching system with a server and client implementation. It allows for storing, retrieving, and managing cached data across different processes. A basic example of how to use the cache is included down below.
 
 ## Components
 
